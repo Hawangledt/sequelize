@@ -9,9 +9,12 @@
 ### Para rodar o repositório em ambiente local
 1. `npm start:dev`
 
-## Criando uma nova migration:
+## Trabalhando com migrations:
 
+### Criar uma migration
 1. `sequelize migration:generate --name NomeDaMigration`
+### ROdar uma migration
+2. `npx sequelize db:migrate`
 
 ## Novas Bibliotecas utilizadas:
 
