@@ -13,8 +13,9 @@
 
 ### Criar uma migration
 1. `sequelize migration:generate --name NomeDaMigration`
-### ROdar uma migration
-2. `npx sequelize db:migrate`
+### Rodar uma migration. Opções:
+1. Opção nº 1: `sequelize db:migrate`
+2. Opção nº 2: `npx sequelize db:migrate`
 
 ## Novas Bibliotecas utilizadas:
 

@@ -7,9 +7,9 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: seu_usuario_do_banco
-      POSTGRES_PASSWORD: sua_senha_do_banco
-      POSTGRES_DB: nome_do_banco_de_dados
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
