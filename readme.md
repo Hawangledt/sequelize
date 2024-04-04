@@ -4,7 +4,8 @@
 
 ### Na primeira vez é necessário instalar as dependencias:
 1. `npm install`
-2. `cp .env_example .env`
+2. Se for em ambiente local: `npm install --dev`
+3. `cp .env_example .env`
 
 ### Para rodar o repositório em ambiente local
 1. `npm start:dev`
@@ -12,7 +13,8 @@
 ## Trabalhando com migrations:
 
 ### Criar uma migration
-1. `sequelize migration:generate --name NomeDaMigration`
+1. `sequelize migration:generate --name criar_tabela_alunos`
+2. `npx sequelize-cli migration:generate --name criar_tabela_alunos`
 ### Rodar uma migration. Opções:
 1. Opção nº 1: `sequelize db:migrate`
 2. Opção nº 2: `npx sequelize db:migrate`
