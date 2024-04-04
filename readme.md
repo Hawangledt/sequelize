@@ -8,7 +8,7 @@
 3. `cp .env_example .env`
 
 ### Para rodar o repositório em ambiente local
-1. `npm start:dev`
+1. `npm run start:dev`
 
 ## Trabalhando com migrations:
 
