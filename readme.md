@@ -19,6 +19,13 @@
 1. Opção nº 1: `sequelize db:migrate`
 2. Opção nº 2: `npx sequelize db:migrate`
 
+### Reverter a última migration:
+1. `sequelize-cli db:migrate:undo`
+2. `npx sequelize-cli db:migrate:undo`
+
+## Documentação do Sequelize:
+https://sequelize.org/docs/v6/core-concepts/model-basics/
+
 ## Novas Bibliotecas utilizadas:
 
 ### instalar o sequelize
